@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    -webkit-overflow-scrolling: touch;
+    font-family: 'Mulish', sans-serif;
+}
+
+:focus {
+    outline: 0;
+}
+
+body {
+    background: #f0f2f3;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.component {
+    background: #fff;
+    padding: 150px;
+    border-radius: 15px;
+}
+
+
+form {
+    margin-top: 30px;
+}
+
+
+.title {
+    display: block;
+    color: #495057;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+input {
+    width: 250px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #CED4DA;
+    padding: 0 12px;
+    font-size: 13px;
+}
+
+input::placeholder {
+    color: #495057;
+}
+
+
+button {
+    height: 36px;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #fff;
+    background: #39b9e4;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 15px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+a {
+    margin-top: 20px;
+    display: block;
+    color: rgb(29, 29, 175);
+}
+
+li:nth-child(3) {
+    text-align: center;
+}
+
+.facebook {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.password {
+    color: #8199a5;
+}
+
+.divider {
+    text-align: center;
+}
+
+.Log {
+    display: inline-flex;
+    margin-left: 2px;
+    color: #33bae8;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
